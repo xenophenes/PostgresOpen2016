@@ -53,7 +53,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #474747;
+		color: #66C1E8;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -198,6 +198,10 @@
 
 		header.major p {
 			font-size: 1.5em;
+		}
+
+		header img {
+			width: 5em;
 		}
 
 /* Form */
@@ -585,7 +589,6 @@
 	}
 
 		ul li {
-			padding-left: 0.5em;
 		}
 
 		ul.alt {
@@ -942,6 +945,7 @@
 		line-height: 6em;
 		width: 100%;
 		z-index: 10000;
+		border-bottom: 6px solid #66C1E8;
 	}
 
 		#header h1 {
