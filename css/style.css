@@ -211,6 +211,11 @@
 			width: 5em;
 		}
 
+		.sponsor img {
+			height: 5em;
+			margin: 2em 2em 2em 0em;
+		}
+
 /* Form */
 
 	form {
