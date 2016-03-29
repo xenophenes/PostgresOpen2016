@@ -24,7 +24,7 @@
 
 	body, input, select, textarea {
 		color: #444;
-		font-family: 'Roboto Condensed', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
 		line-height: 1.65em;
@@ -59,6 +59,7 @@
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1317,7 +1318,7 @@
 		.post .content {
 		  z-index: 2;
 		  position: relative;
-		  font-family: 'Roboto Condensed', sans-serif;
+		  font-family: 'Open Sans', sans-serif;
 		  pointer-events: none;
 		}
 
