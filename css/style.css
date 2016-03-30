@@ -1051,6 +1051,7 @@
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
+		-webkit-transform: translate3d(0,0,0);
 	}
 
 		#banner :last-child {
