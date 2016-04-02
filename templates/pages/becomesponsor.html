@@ -1,0 +1,28 @@
+{%extends "pgopen/templates/base.html" %}
+{%block content%}
+{% load staticfiles %}
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+            <span class="header"><img src="{% static 'images/sponsors.svg' %}" alt="" /></span>
+						<h2>Become a Sponsor</h2>
+					</header>
+
+          <!-- Sponsorship -->
+          <section class="section">
+            <hr>
+            <h3>Sponsorship</h3>
+            <p>PostgresOpen is a perfect opportunity for companies to reach
+               out to users and developers of PostgreSQL, or to just "give back" to the
+               community. Our sponsorship program covers a wide range of levels, from cheap
+               to big scale. If you are interested in sponsoring the conference, please
+               <b><a href="mailto:program2016@postgresopen.org">contact us!</a></b>
+            </p>
+            <hr>
+          </section>
+
+        </div>
+      </section>
+{% endblock %}

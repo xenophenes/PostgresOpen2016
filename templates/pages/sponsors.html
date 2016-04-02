@@ -1,0 +1,55 @@
+{%extends "pgopen/templates/base.html" %}
+{%block content%}
+{% load staticfiles %}
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+            <span class="header"><img src="{% static 'images/sponsors.svg' %}" alt="" /></span>
+						<h2>Sponsors</h2>
+					</header>
+
+          <!-- Sponsorship -->
+          <section class="section">
+            <hr>
+            <h3>Sponsorship</h3>
+            <p>PostgresOpen wouldn't be possible without the support of our wonderful
+               sponsors!  If you are interested in sponsoring the conference, please
+               see our <b><a href="/sponsors/becomesponsor/">sponsoring campaign</a></b> and let us know!
+            </p>
+            <hr>
+          </section>
+
+          <!-- Platinum -->
+          <section class="section">
+            <h3>Platinum</h3>
+            <span class="sponsor"><img src="{% static 'images/2ndQ_logo.png' %}" alt="" /></span>
+            <hr>
+          </section>
+
+          <!-- Gold -->
+          <section class="section">
+            <h3>Gold</h3>
+            <span class="sponsor"><img src="{% static 'images/OpenShift_350px.png' %}" alt="" /></span>
+            <hr>
+          </section>
+
+          <!-- Silver -->
+          <section class="section">
+            <h3>Silver</h3>
+            <span class="sponsor"><img src="{% static 'images/EDB-logo-4c.png' %}" alt="" /></span>
+            <hr>
+          </section>
+
+          <!-- Bronze -->
+          <section class="section">
+            <h3>Bronze</h3>
+            <span class="sponsor"><img src="{% static 'images/CDLogo_Full_RGB.png' %}" alt="" /></span>
+            <hr>
+          </section>
+
+
+        </div>
+      </section>
+{% endblock %}
