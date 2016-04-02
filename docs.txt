@@ -1,0 +1,13 @@
+README
+
+To use this, create a new Django app called pgopen (this can be changed, but some links will have to be changed).
+
+urls.py should be included in your pgopen app foled, and your main urls file should link to it
+by adding this line : "url(r'', include('pgopen.urls')),"
+
+views.py should be included in your pgopen folder. 
+
+The shared folder contains all css, js, and images. It should be in your project root and set as your static file in 
+your project settings.
+
+The templates folder should be in your pgopen app. It contains the base template and all pages.
